@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    /* font-weight tipografias */
+    --Thin:100;
+    --Extra-Light:300;
+    --Light:300;
+    --Normal:400; /* Regular */
+    --Medium:500;
+    --Semi-Bold:600;
+    --Bold:800;
+    --Extra-Bold:900;
+    --Blanco:#FFFFFF;
+    --backgroud-app:#121832;
+    --btn_activo:#F4797A ;
+    --Menu_desplegable:#46DB89;
+    --Btn_reposo:#3A4669;
+    --Btn_hover:#3A4669;
+    --Deg_base1:#676DFC ;
+    --placeholder:#61687D;
+    --background-Gradient1: linear-gradient(90deg,rgba(103, 109, 252, 1) 42%, rgba(28, 133, 253, 1) 96%);;
+    --Deg_base2: #253250;
+    --background-Gradient2: linear-gradient(180deg,rgba(37, 50, 80, 1) 0%, rgba(84, 114, 182, 1) 48%, rgba(84, 114, 182, 1) 55%, rgba(37, 50, 80, 1) 100%);
+}
+body{
+    background-color: var(--backgroud-app);
+    margin:0 !important;
+    padding: 0 !important;
+    font-family: 'Roboto';
+}
