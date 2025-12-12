@@ -16,23 +16,24 @@
                 <li class="nav-item-inicio">
                     <div class="inicio" >
                         <img src="img_Doc/inicio.png" alt="link-side">
-                        <a [routerLink]="['/main/Dashboard']" class="nav-item-inicio dropdown-title-inicio" ><p routerLinkActive="link-Active">Inicio</p></a>
+                        <a  class="nav-item-inicio dropdown-title-inicio" (click)="linkActivo($event)"><p>Inicio</p></a>
+                        <!-- <a [routerLink]="['/main/Dashboard']" class="nav-item-inicio dropdown-title-inicio" (click)="linkActivo($event)"><p routerLinkActive="link-Active">Inicio</p></a> -->
                     </div>
                 </li>
             </ul>
             <ul class="dropdown-menu">
                 <li class="nav-item-chevron">
                     <div class="elemento-chevron">
-                        <a (click)="clicEventMenu($event)" class="nav-item dropdown-title"><p>Once Capital <img src="img_Doc/chevron_down.png" alt="link-side"></p></a>
+                        <a (click)="clicEventMenu($event)" class="nav-item dropdown-title"><p #onceCapital>Once Capital <img src="img_Doc/chevron_down.png" alt="link-side"></p></a>
                         <!-- <a onclick="$event.stopPropagation()" class="nav-item dropdown-title"><p>Once Capital <img src="img_Doc/chevron_down.png" alt="link-side"></p></a> -->
                     </div>
-                    <ul class="dropdown-menu-toggle" #toggle1>
-                        <li class="nav-item">
+                    <ul class="dropdown-menu-toggle">
+                        <li class="nav-item" #toggle1>
                             <div class="element-a">
-                                    <a href="" class="nav-item dropdown-link"><p>Clientes</p></a>
+                                    <a [routerLink]="['/main/once/clientes']" class="nav-item dropdown-link" (click)="linkActivo($event)"><p routerLinkActive="link-Active">Clientes</p></a>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" #toggle1>
                             <div class="element-a">
                                     <a href="" class="nav-item dropdown-link"><p>Consulta de tarjeta</p> </a>
                             </div>
@@ -80,15 +81,17 @@
                 <li class="nav-item-chevron">
                     <!-- <p> -->
                         <div class="elemento-chevron">
-                            <a href="" class="nav-item dropdown-title"><p>Nominon <img src="img_Doc/chevron_down.png" alt="link-side"></p></a>
+                            <a  class="nav-item dropdown-title"><p>Nominon <img src="img_Doc/chevron_down.png" alt="link-side"></p></a>
                         </div>
                     <!-- </p> -->
                 </li>
-                <li class="nav-item">
-                    <div class="element-a">
-                            <a href="" class="nav-item dropdown-link"><p>prueba</p> </a>
-                    </div>
-                </li>
+                <ul class="dropdown-menu-toggle">
+                    <li class="nav-item">
+                        <div class="element-a">
+                                <a [routerLink]="['/main/Dashboard']" class="nav-item dropdown-link"><p routerLinkActive="link-Active">prueba</p> </a>
+                        </div>
+                    </li>
+                </ul>
             </ul>
         <!-- </li>
     </ul> -->

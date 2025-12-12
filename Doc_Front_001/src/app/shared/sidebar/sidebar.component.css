@@ -56,6 +56,7 @@ background: var(--Btn_hover);
     /* display: grid; */
     position: relative;
     width: 100%;
+    cursor: pointer;
 }
 .nav-item-chevron .elemento-chevron a img{
     position: absolute;
@@ -86,4 +87,7 @@ background: var(--Btn_hover);
 
 .link-Active{
   color: var(--btn_activo);
+}
+.menuDesplegadoActivo{
+    color: var(--Menu_desplegable)
 }
