@@ -14,9 +14,10 @@
     --btn_activo:#F4797A ;
     --Menu_desplegable:#46DB89;
     --Btn_reposo:#3A4669;
-    --Btn_hover:#3A4669;
-    --Deg_base1:#676DFC ;
+    --scroll_hover:#353e58;
+    --Btn_hover:#222A45;
     --placeholder:#61687D;
+    --Deg_base1:#676DFC ;
     --background-Gradient1: linear-gradient(90deg,rgba(103, 109, 252, 1) 42%, rgba(28, 133, 253, 1) 96%);;
     --Deg_base2: #253250;
     --background-Gradient2: linear-gradient(180deg,rgba(37, 50, 80, 1) 0%, rgba(84, 114, 182, 1) 48%, rgba(84, 114, 182, 1) 55%, rgba(37, 50, 80, 1) 100%);

@@ -1,0 +1,89 @@
+.sidebar{
+    position: relative;
+    width: 187px;
+    /* height: 300px; */
+    left: 10px;
+    /* background: #505050; */
+    
+}
+
+.sidebar-header{
+    color: var(--Blanco);
+}
+
+.sidebar ul,
+.sidebar ul li, 
+.sidebar ul li a{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--Btn_reposo);
+}
+.nav-item-inicio .inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* link de inicio */
+.nav-item-inicio img{
+    margin: 0 15px 0 0 ;
+    padding: 5px 0 5px 0;
+}
+.nav-item-inicio p{
+    margin: 0 0 0 0 ;
+    padding: 5px 5px 5px 5px;
+}
+.nav-item-inicio a{
+    width: 100%;
+
+}
+.nav-item-inicio p:hover{
+background: var(--Btn_hover);
+}
+
+/* link principal con chevron */
+.nav-item-chevron p:hover{
+    background: var(--Btn_hover);
+}
+.nav-item-chevron p{
+    margin: 10px 0px 0px 32px ;
+    padding: 5px 5px 5px 5px;
+}
+.nav-item-chevron .elemento-chevron{
+    /* display: grid; */
+    position: relative;
+    width: 100%;
+}
+.nav-item-chevron .elemento-chevron a img{
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+/* .nav-item p{
+    margin: 10px 0px 10px 32px ;
+    padding: 5px 5px 5px 5px;
+} */
+/* link desplegable */
+.nav-item .element-a p{
+    margin: 10px 0px 10px 32px ;
+    padding: 5px 5px 5px 5px;
+}
+
+/* .nav-item .element-a div:hover{
+    background: var(--Btn_hover);
+} */
+.nav-item p:hover{
+    background: var(--Btn_hover);
+}
+
+.dropdown-menu-toggle{
+    display: none;
+}
+
+.link-Active{
+  color: var(--btn_activo);
+}
